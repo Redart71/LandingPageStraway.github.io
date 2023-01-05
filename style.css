@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'Bicyclette';
+    src: local('Bicyclette Regular'), local('Bicyclette-Regular');
+  }
+@font-face {
+    font-family: 'Eldwin Script';
+    src: local('Eldwin ScriptHeavy'), local('Eldwin-ScriptHeavy');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), local('Poppins');
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 78px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo-top {
+    height: 60px;
+}
+
+.sticky-campagne {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sticky-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.logo-ulule{
+    height: 60px;
+}
+
+.text-campagne {
+    text-decoration: none;
+    font-family: 'Bicyclette';
+    font-weight: bold;
+    font-size: 22px;
+    word-spacing: 4px;
+    color: #36465d;
+}
+
+.text-campagne:hover{
+    color: #a2c2a9;
+}
+
+.test-ulule{
+    color: #a2c2a9;
+    font-family: 'Eldwin Script';
+}
+
+.bouton{
+    width: 100%;
+    border: none;
+    background-color: #a2c2a9;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.bouton:hover{
+    background-color: #36465d;
+    transition-duration: 0.4s;
+}
+
+section{
+    padding: 60px;
+}
+
+.présentation-produit{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 60px;
+    font-family: 'Poppins';
+    color: #36465d;
+}
+
+.price{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.blocks-forms{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.block-form1{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #36465d;
+    margin-right: 20px
+}
+
+.active, .block-form1:hover{
+    border: 2px solid #a2c2a9;
+}
+
+.block-form2{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #36465d;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.active, .block-form2:hover{
+    border: 2px solid #a2c2a9;
+}
+
+.blocks-couleurs{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.block-couleur1{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #36465d;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #46464b;
+}
+
+.block-couleur2{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #36465d;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #f6f5f0;
+}
+
+.block-couleur3{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #36465d;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #8f8580;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-produit-single{
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.img-produit-nav{
+    height: 80px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.border-separate {
+    width: 80%;
+    border-top: 2px solid;
+    border-color: #a2c2a9;
+}
+
+.avantage-produit{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.title-avantage-produit{
+    font-family: 'Bicyclette';
+    font-weight: bold;
+    word-spacing: 4px;
+    font-size: 34px;
+    padding-bottom: 40px;
+    color: #36465d;
+}
+
+.title-avantage-produit span {
+    font-family: 'Eldwin Script';
+    color: #a2c2a9;
+}
+
+.text-avantage-produit{
+    font-family: 'Poppins';
+}
+
+.img-avantage-produit{
+    height: 300px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #36465d;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.reseaux-sociaux{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding-bottom: 20px;
+}
+
+.title-footer{
+    font-family: 'Bicyclette';
+    font-weight: bold;
+    word-spacing: 4px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.title-footer span{
+    color: #a2c2a9;
+}
+
+.icons-reseaux-sociaux{
+    display: flex;
+    column-gap: 40px;
+}
+
+.lien-icon-reseaux-sociaux:hover{
+    color: #a2c2a9;
+}
+
+.icon-reseaux-sociaux{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.contact-text{
+    font-family: 'Poppins';
+}
+
+.contact-text span{
+    text-decoration: underline;
+}
